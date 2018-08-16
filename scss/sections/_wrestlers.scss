@@ -1,0 +1,49 @@
+.wrestler-statistics {
+  dl > dd:last-child {
+    margin-bottom: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0 !important;
+  }
+}
+
+.wrestler-biography {
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+.wrestler-list-item a {
+  background-color: theme-color("dark");
+
+  @include hover-focus {
+    .wrestler-list-item-caption {
+      background-image: linear-gradient(to bottom, rgba($black, 0) 25%, rgba($black, .5) 100%);
+    }
+  }
+}
+
+.wrestler-list-item-caption {
+  color: $white;
+  font-weight: bold;
+  text-shadow: 0 .1rem .1rem rgba($black, .75);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: $spacer * 1.5;
+  padding-bottom: $spacer * .5;
+  padding-left: $spacer * .75;
+  background-image: linear-gradient(to bottom, rgba($black, 0) 25%, rgba($black, .75) 100%);
+  background-repeat: repeat-x;
+
+  &-content {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: .75rem 1rem;
+  }
+}
