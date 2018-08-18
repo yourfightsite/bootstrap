@@ -1,0 +1,11 @@
+abbr[title] {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.card-body,
+.modal-body {
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
