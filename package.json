@@ -1,23 +1,26 @@
 {
-    "name": "@yourfightsite/bootstrap",
-    "version": "1.0.0-alpha.2",
-    "description": "Bootstrap for Your Fight Site CMS themes.",
-    "homepage": "https://cms.yourfightsite.com",
-    "bugs": {
-        "url": "https://github.com/yourfightsite/bootstrap/issues"
-    },
-    "license": "UNLICENSED",
-    "author": {
-        "name": "Martin Bean",
-        "email": "martin@yourfightsite.com"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/yourfightsite/bootstrap.git"
-    },
-    "dependencies": {
-        "bootstrap": "^4.1.3",
-        "jquery": "^3.3.1",
-        "popper.js": "^1.14.4"
-    }
+  "name": "@yourfightsite/bootstrap",
+  "version": "1.0.0-alpha.3",
+  "description": "Bootstrap for Your Fight Site CMS themes.",
+  "homepage": "https://cms.yourfightsite.com",
+  "bugs": {
+    "url": "https://github.com/yourfightsite/bootstrap/issues"
+  },
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Martin Bean",
+    "email": "martin@yourfightsite.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourfightsite/bootstrap.git"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4"
+  },
+  "peerDependencies": {
+    "laravel-mix": "2.x"
+  }
 }
