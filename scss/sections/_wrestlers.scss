@@ -14,36 +14,22 @@
   }
 }
 
-.wrestler-list-item a {
-  background-color: theme-color("dark");
-
-  @include hover-focus {
-    .wrestler-list-item-caption {
-      background-image: linear-gradient(to bottom, rgba($black, 0) 25%, rgba($black, .5) 100%);
-    }
+.wrestler-list-item {
+  &-caption {
+    color: color-yiq($link-color);
+    background-color: $link-color;
+    padding: .5rem .75rem;
   }
-}
 
-.wrestler-list-item-caption {
-  color: $white;
-  font-weight: bold;
-  text-shadow: 0 .1rem .1rem rgba($black, .75);
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding-top: $spacer * 1.5;
-  padding-bottom: $spacer * .5;
-  padding-left: $spacer * .75;
-  background-image: linear-gradient(to bottom, rgba($black, 0) 25%, rgba($black, .75) 100%);
-  background-repeat: repeat-x;
+  a {
+    background-color: $body-bg;
 
-  &-content {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: .75rem 1rem;
+    @include hover-focus {
+      .wrestler-list-item-caption {
+        color: color-yiq($link-color);
+        background-color: $link-hover-color;
+        text-decoration: none;
+      }
+    }
   }
 }
