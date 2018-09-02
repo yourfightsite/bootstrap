@@ -1,1 +1,7 @@
-//
+.article-list-item {
+  margin-bottom: $spacer;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
