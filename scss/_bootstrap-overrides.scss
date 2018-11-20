@@ -1,6 +1,26 @@
+[disabled],
+:disabled,
+.disabled {
+  cursor: not-allowed;
+}
+
 abbr[title] {
   text-decoration: none;
   border-bottom: none;
+}
+
+.card {
+  > .table {
+    td,
+    th {
+      &:first-child {
+        padding-left: $card-spacer-x;
+      }
+      &:last-child {
+        padding-right: $card-spacer-x;
+      }
+    }
+  }
 }
 
 .card-body,
