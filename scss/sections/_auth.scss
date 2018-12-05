@@ -1,0 +1,8 @@
+.card-login,
+.card-register,
+.card-reset-password,
+.card-verify-email {
+  @include media-breakpoint-up(md) {
+    max-width: 32.5rem;
+  }
+}

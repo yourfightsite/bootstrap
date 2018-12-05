@@ -1,0 +1,17 @@
+.website-cookie-notice-wrapper {
+  background-color: $modal-content-bg;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: $modal-inner-padding;
+  background-origin: $modal-content-border-width solid $modal-content-border-color;
+
+  @include media-breakpoint-up(md) {
+    right: auto;
+    bottom: 1rem;
+    left: 1rem;
+    @include border-radius($modal-content-border-radius);
+    @include box-shadow($modal-content-box-shadow-sm-up);
+  }
+}
