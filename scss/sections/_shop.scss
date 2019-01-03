@@ -4,3 +4,34 @@
     max-width: 6rem;
   }
 }
+
+.product-sku-list {
+  margin-bottom: .5rem;
+}
+
+.product-sku-list-item {
+  margin-bottom: .5rem;
+
+  label {
+    position: relative;
+    display: block;
+    padding: .75rem 1rem;
+    border: $border-width solid $border-color;
+    border-radius: $border-radius-sm;
+  }
+
+  &.active {
+    label {
+      border-color: $primary;
+    }
+  }
+
+  &.disabled {
+    cursor: not-allowed;
+    opacity: .5;
+  }
+}
+
+.product-sku-list-input {
+  padding-top: .25rem;
+}
