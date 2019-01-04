@@ -29,3 +29,9 @@ abbr[title] {
     margin-bottom: 0;
   }
 }
+
+.embed-responsive-4by3 {
+  &::before {
+    padding-top: percentage(3 / 4);
+  }
+}
