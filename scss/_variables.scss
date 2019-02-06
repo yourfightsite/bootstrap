@@ -4,9 +4,7 @@ $enable-validation-icons: false !default;
 
 $spacer: 1rem !default;
 
-$embed-responsive-aspect-ratios: (
-  (4 3)
-);
+$embed-responsive-aspect-ratios: append((), (4 3));
 
 $headings-margin-bottom: $spacer !default;
 
