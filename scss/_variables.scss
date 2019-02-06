@@ -4,6 +4,10 @@ $enable-validation-icons: false !default;
 
 $spacer: 1rem !default;
 
+$embed-responsive-aspect-ratios: (
+  (4 3)
+);
+
 $headings-margin-bottom: $spacer !default;
 
 $grid-gutter-width: 20px !default;
