@@ -1,6 +1,6 @@
 {
   "name": "@yourfightsite/bootstrap",
-  "version": "1.0.0-alpha.19",
+  "version": "1.0.0-alpha.20",
   "description": "Bootstrap for Your Fight Site CMS themes.",
   "homepage": "https://cms.yourfightsite.com",
   "bugs": {
@@ -17,10 +17,12 @@
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.14.7"
+    "popper.js": "^1.16.0"
   },
   "peerDependencies": {
     "laravel-mix": "2.x"
+  },
+  "devDependencies": {
+    "jquery": "^3.4.1"
   }
 }
