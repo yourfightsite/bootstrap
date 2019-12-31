@@ -38,3 +38,17 @@
     width: 7rem;
   }
 }
+
+.event-list {
+  &-item {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: $border-width solid $border-color;
+  }
+
+  &:last-child > .event-list-item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+}
