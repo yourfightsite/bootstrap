@@ -7,7 +7,7 @@
   left: 0;
   padding: $modal-inner-padding;
   background-origin: $modal-content-border-width solid $modal-content-border-color;
-  z-index: 2000;
+  z-index: $zindex-modal;
 
   @include media-breakpoint-up(md) {
     right: auto;
