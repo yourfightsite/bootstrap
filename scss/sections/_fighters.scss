@@ -1,0 +1,16 @@
+.fighter-statistics {
+  &:last-child dl {
+    margin-bottom: 0;
+  }
+}
+
+.fighter-biography {
+  margin-bottom: 1rem;
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}

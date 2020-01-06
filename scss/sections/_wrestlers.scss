@@ -1,13 +1,16 @@
-.wrestler-statistics:last-child {
-  dl {
+.wrestler-statistics {
+  &:last-child dl {
     margin-bottom: 0;
   }
 }
 
 .wrestler-biography {
   margin-bottom: 1rem;
-
   &:last-child {
+    margin-bottom: 0;
+  }
+
+  p:last-child {
     margin-bottom: 0;
   }
 }
